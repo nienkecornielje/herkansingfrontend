@@ -8,10 +8,17 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
   background-color: pink
+
+}
+
+main{
+    padding: 15px;
+
 }
 
 li {
@@ -20,13 +27,16 @@ li {
 }
 
 header {
-  padding: 10px 10px 10px 10px;
+  top: 0px;
   background-color: var(--achtergrondkleur);
   height: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  position: fixed;
+  width: 100%;
+padding: 30px 15px 30px 15px;
+z-index: 100;
 }
 
 
@@ -34,6 +44,7 @@ nav a {
   text-decoration: none;
   font-family: var(--lettertype);
   font-weight: normal;
+
 }
 
 header ul {
@@ -85,13 +96,12 @@ input[type=text] {
   text-transform: uppercase;
   display: flex;
   text-decoration: none;
-  margin: auto;
 }
 
 .hamburgericon {
-  margin: auto 0;
-  display: none;
-  cursor: pointer;
+ cursor: pointer;
+ display: none;
+
 }
 
 .hamburgericon div {
@@ -118,13 +128,14 @@ input[type=text] {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: flex-start;
+background-color: var(--achtergrondkleur);
+height: calc(100vh - 40px);
 }
 
 .mobielmenu {
   display: none;
   position: absolute;
-  top: 15%;
   left: 0;
   height: calc(100vh -50px);
   width: 100%;
@@ -143,6 +154,7 @@ input[type=text] {
 
 .mobielmenu input {
   height: 30px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 650px) {
@@ -153,6 +165,61 @@ input[type=text] {
   .hamburgericon {
     display: block;
   }
+}
+
+main {
+position: relative;
+
+
+}
+
+
+ main h2 {
+  display:flex;
+  position: absolute;
+
+  justify-content:center;
+    align-items:right;
+
+
+    padding:5px;
+    background-color: black;
+
+
+
+}
+main a {
+  text-decoration: none;
+    color: white;
+  text-transform: uppercase;
+
+
+
+}
+
+main section:nth-of-type(2) h2 {
+  margin-top: 2em;
+
+}
+
+
+
+img {
+max-width: 100%;}
+
+body {
+  padding-top: 50px;
+}
+
+footer {
+  position: relative
+  display: flex;
+}
+
+footer img{
+  max-width: 5%;
+  display: flex;
+  justify-content: center;
 }
 
 h1 {
