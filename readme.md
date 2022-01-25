@@ -7,7 +7,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Bronnenlijst
 1. https://www.youtube.com/watch?v=OjQP7rPwJyE
-2. -bron 2-
+2. https://formsubmit.co/
 3. -...-
 
 
@@ -59,7 +59,7 @@ javascript pakt het nog niet, hier kan ik even naar kijken door de error code di
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+-na afloop snel uitkomsten vastleggen-                                        
 
 
 

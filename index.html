@@ -17,34 +17,33 @@
 				<img src="images/hamburgermenu.png" alt="hamburgermenu">-->
 		</section>
 		<nav>
-			<section>
-				<ul>
+
+
+
+			<section class="hamburgericon">
+				<div class="bar 1"></div>
+				<div class="bar 2"></div>
+				<div class="bar 3"></div>
+				<ul class="mobielmenu">
 					<li><a href="#">Thema's</a></li>
 					<li><a href="#">Bestemmingen</a></li>
 					<li><a href="#">Over ons</a></li>
 					<input type="text" placeholder="Zoeken..">
 				</ul>
+				</div>
 			</section>
-
-
-<section class="hamburgericon" onclick="toggleMobielMenu(this)">
-		<div class="bar 1"></div>
-			<div class="bar 2"></div>
-			<div class="bar 3"></div>
-			<ul class="mobielmenu">
-				<li><a href="#">Thema's</a></li>
-				<li><a href="#">Bestemmingen</a></li>
-				<li><a href="#">Over ons</a></li>
-				<input type="text" placeholder="Zoeken..">
-			</ul>
-		</div>
+			<section class='hamburger-icon'>
+				<div></div>
+				<div></div>
+				<div></div>
+			</section>
 		</section>
-			</nav>
+		</nav>
 
 	</header>
 
 	<main>
-		<section >
+		<section>
 			<h2><a href="pagina2.html">Reisroutes</a></h2>
 			<img src="images/reisroutes.jpeg" alt="reisroutesimg">
 		</section>
@@ -54,43 +53,55 @@
 			<img src="images/voorbereidingen.jpeg" alt="voorbereidingenimg">
 		</section>
 
-		<section >
+		<section>
 			<h2><a href="pagina2.html">Bucketlist</a></h2>
 			<img src="images/bucketlist.jpeg" alt="bucketlistimg">
 		</section>
 
-		<section >
+		<section>
 			<h2><a href="pagina2.html">Backpacken</a></h2>
 			<img src="images/backpacken.jpeg" alt="backpackenimg">
 		</section>
 
-		<section >
+		<section>
 			<h2><a href="pagina2.html">Bijzonder slapen</a></h2>
 			<img src="images/bijzonderslapen.jpeg" alt="Bijzonderslapenimg">
 		</section>
 
-		<section >
+		<section>
 			<h2><a href="pagina2.html">Tips</a></h2>
 			<img src="images/tips.jpeg" alt="tipsimg">
 		</section>
-
 	</main>
 
-	<footer>
-		<section id="socials">
-			<h4>Social check-in</h4>
+	<hr>
 
+	<footer>
+		<section>
+			<h3>Contact</h3>
+			<p>Kom langs voor een kopje koffie of laat je contactgegevens achter.</p>
+			<form action="https://formsubmit.co/nienkecornielje15@gmail.com">
+				<input type="text" name="Voornaam" placeholder="Voornaam " required>
+				<input type="text" name="Achternaam" placeholder="Achternaam" required>
+				<input type="text" name="Email" placeholder="E-mail" required>
+				<button type="submit">Verstuur</button>
+			</form>
+		</section>
+
+
+		<section>
 			<ul>
 				<li> <a href="https://www.instagram.com/reisjunk/"><img src="images/facebook.png" alt="facebook"></a></li>
 				<li><a href="https://www.instagram.com/reisjunk/"><img src="images/instagram.png" alt="instagram"></a></li>
 				<li><a href="https://www.instagram.com/reisjunk/"><img src="images/twitter.png" alt="twitter"></a></li>
 			</ul>
+
 			<p>© 2021 Reisjunk.nl, alle rechten voorbehouden.</p>
 
 		</section>
 
-		<footer>
-			<script src="scripts/script.js"></script>
+	</footer>
+	<script src="scripts/script.js"></script>
 </body>
 
 </html>
